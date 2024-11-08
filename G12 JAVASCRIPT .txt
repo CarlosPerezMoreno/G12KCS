@@ -1,0 +1,38 @@
+﻿//Sample code 1 (you can use it in CODEPEN.IO)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My First JavaScript Program</title>
+</head>
+<body>
+  <h1>Hello, World!</h1>
+  <p>Click the button to see JavaScript in action:</p>
+  <button onclick="sayHello()">Click me!</button>
+
+
+  <script>
+    function sayHello() {
+      alert("Hello from JavaScript!");
+    }
+  </script>
+</body>
+</html>
+
+
+//Sample code 2 (you can use JS COMPILER)
+
+let name = "James";
+const age = 25;
+var isStudent = true;
+
+//Sample code 3 (you can use JS COMPILER)
+
+
+function greet(name) {
+    return "Hello, " + name + "!";
+}
+ 
+var greeting = greet("Alice"); // "Hello, Alice!"
+console.log(greeting);
